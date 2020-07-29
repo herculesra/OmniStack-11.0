@@ -1,10 +1,13 @@
-import React from 'react';
-import Header from './Header';
+import React, { useState } from 'react';
+
+import './global.css';
+
+import Logon from './pages/Logon';
 
 function App() {
+
   return (
-    // quando não tem nenhum conteudo obrigatorio dentro da tag, pode deixar assim
-    <Header />
+    <Logon />
   );
 }
 
